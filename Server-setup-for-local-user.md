@@ -3,7 +3,9 @@
 1. Create FSx with Mixed as Security style
    - Volume - v1 (Path: /v1)
 2. [Login to the Server with ONTAP CLI](https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/managing-resources-ontap-apps.html#vsadmin-ontap-cli)
-   ➜  ~ ssh vsadmin@<Management endpoint - IP address of SVM>
+```shell
+➜  ~ ssh vsadmin@<Management endpoint - IP address of SVM>
+```
 3. [Create the SMB server in a workgroup](https://docs.netapp.com/us-en/ontap/smb-config/create-server-workgroup-task.html)
 ```shell
 ➜ fsx::> vserver
